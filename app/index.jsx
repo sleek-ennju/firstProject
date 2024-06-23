@@ -10,8 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello World.</Text>
-      <Link href="/details" className="underline text-red-500">Navigate to details</Link>
+      <Text className="font-poppins font-p-extra-bold">Hello World.</Text>
+      <Link href="/home" className="underline text-red-500 font-poppins font-p-bold">Navigate to details</Link>
     </View>
   );
 }
